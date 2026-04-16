@@ -5,7 +5,7 @@
     ">\n              Dreams\n": ">\n              梦境\n",
     ">\n              Imported Insights\n": ">\n              导入洞察\n",
     ">\n              Memory Palace\n": ">\n              记忆宫殿\n",
-    "? \"Reloading…\"\n                  : \"Reload\"\n                : props.wikiMemoryPalaceLoading\n                  ? \"Reloading…\"\n                  : \"Reload\"": "? \"重新加载中…\"\n                  : \"重新加载\"\n                : props.wikiMemoryPalaceLoading\n                  ? \"重新加载中…\"\n                  : \"重新加载\"",
+    ": _diarySubTab === \"insights\"\n                  ? props.wikiImportInsightsLoading\n                    ? \"Reloading…\"\n                    : \"Reload\"\n                  : props.wikiMemoryPalaceLoading\n                    ? \"Reloading…\"\n                    : \"Reload\"": ": _diarySubTab === \"insights\"\n                  ? props.wikiImportInsightsLoading\n                    ? \"重新加载中…\"\n                    : \"重新加载\"\n                  : props.wikiMemoryPalaceLoading\n                    ? \"重新加载中…\"\n                    : \"重新加载\"",
     "the system writes while replaying and consolidating memory": "the system writes while replaying and consolidating memory（系统在回放和整合记忆时撰写）",
     "imported insights clustered from external history": "imported insights clustered from external history（从外部历史中聚类的导入洞察）",
     "the compiled memory wiki surface the system can search": "the compiled memory wiki surface the system can search（系统可搜索和推理的编译记忆 wiki）",
