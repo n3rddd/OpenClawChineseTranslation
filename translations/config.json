@@ -16,7 +16,13 @@
       "cli/models-cli.json",
       "cli/command-registry.json",
       "cli/core-command-descriptors.json",
-      "cli/subcli-descriptors.json"
+      "cli/subcli-descriptors.json",
+      "cli/gateway-run.json",
+      "cli/gateway-register.json",
+      "cli/gateway-call.json",
+      "cli/daemon-service-commands.json",
+      "cli/onboard-register.json",
+      "cli/status-health-sessions.json"
     ],
     "wizard": [
       "wizard/onboarding.json",
